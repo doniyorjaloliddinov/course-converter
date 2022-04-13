@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course compiler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main container">
+        <div class="navbar-container m-auto">
+            <nav class="">
+                <ul class="d-flex align-items-center justify-content-between">
+                    <li>
+                        <a class="fw-bold" href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="fw-bold" href="#">Convert</a>
+                    </li>
+
+                    <li>
+                        <a class="fw-bold" href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content-wrapper mt-5">
+            <h2 class="heading color-white text-center">USD - SOM</h2>
+            <p class="content color-white text-center">Converter</p>
+        </div>
+
+        <div class="row d-flex">
+            <div class="col-9">
+                <form class="form " action="">
+                    <div class="inputs-wrapper mt-5 d-flex align-items-center justify-content-evenly">
+                        <label class="usd-label" for="usd"></label>
+                        <input class="all-input border-0 rounded-3 usd-input" id="usd" type="text">
+                        <button class="change-btn btn-success border-0 rounded-3">
+                            <img src="./img/exchange.png" alt="exchange" width="25" height="25">
+                        </button>
+                        <label class="som-label" for="som"></label>
+                        <input class="all-input border-0 rounded-3 som-input" id="som" type="text">
+                    </div>
+                
+                    <div class="clear-btn-wrapper mt-3">
+                        <button class="clear-btn rounded-3 border-0">Clear</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-3">
+                <div class="counted-info">
+                    <ol>
+                        
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
