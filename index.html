@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>course compiler</title>
+    <link rel="icon" href="./img/exchange.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -45,22 +46,22 @@
                     <div class="inputs-wrapper mt-5 d-flex align-items-center justify-content-evenly">
                         <label class="usd-label" for="usd"></label>
                         <input class="all-input border-0 rounded-3 usd-input" id="usd" type="text">
-                        <button class="change-btn btn-success border-0 rounded-3">
+                        <button class="change-btn btn-success border-0 rounded-3" type="button">
                             <img src="./img/exchange.png" alt="exchange" width="25" height="25">
                         </button>
                         <label class="som-label" for="som"></label>
-                        <input class="all-input border-0 rounded-3 som-input" id="som" type="text">
+                        <input class="all-input border-0 rounded-3 som-input" id="som" type="text" disabled>
                     </div>
                 
                     <div class="clear-btn-wrapper mt-3">
-                        <button class="clear-btn rounded-3 border-0">Clear</button>
+                        <button class="clear-btn rounded-3 border-0" type="button">Clear</button>
                     </div>
                 </form>
 
             </div>
             <div class="col-3">
                 <div class="counted-info">
-                    <ol>
+                    <ol class="ready-list">
                         
                     </ol>
                 </div>
